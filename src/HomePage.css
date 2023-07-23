@@ -1,0 +1,29 @@
+.home{
+    margin:0px;
+    background-image: url("./utils/assets/images/bg-img1.jpeg");
+    background-size:auto;
+    height: 100vh;
+}
+
+.home h1{
+    font-size: 80px;
+    margin: 0.2rem;
+    margin-right:9rem;
+    margin-top: 0.01rem;
+    padding: 2px;
+    direction: rtl;
+    color:rgb(116, 6, 6);
+    font-weight: 400;
+}
+
+.home h2{
+    font-size: 30px;
+    margin: 0.2rem;
+    margin-top: 0.01 rem;
+    margin-right:9rem;
+    padding: 2px;
+    direction: rtl;
+    color: rgb(14, 4, 101);
+    
+    font-weight: 400;
+}
