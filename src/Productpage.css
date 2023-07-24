@@ -50,6 +50,7 @@ h3,p{
     margin-bottom:0.5rem;
     color: rgb(100, 4, 4);
     font-weight: 600;
+    text-transform: uppercase;
 }
 .btn{
     display: flex;

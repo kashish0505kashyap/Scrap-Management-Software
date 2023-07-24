@@ -1,0 +1,67 @@
+.scrapDetail{
+    display:flex;
+    margin:2.5rem;
+    padding:0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(228, 231, 241);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+
+.leftSide{
+    margin:1rem;
+    
+}
+
+.leftSide img{
+    height: 300px;
+    width:400px;
+}
+.rightSide{
+    margin-top:1rem;
+    
+}
+.rightSide h1{
+    color: rgb(5, 5, 79);
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    
+}
+.rightSide p{
+    color: red;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    
+}
+.rightSide .scrap h3{
+    margin-top: 0.3rem;
+    color:rgb(27, 34, 1);
+    font-size: 20px;
+    font-weight: 350;
+}
+.btn_div button{
+    background-color: rgb(5, 5, 79);
+    color: white;
+    border-color: transparent;
+    border-radius: 5%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    min-height: 40px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    margin-right: 2rem;
+}
+.btn_div button:hover{
+    background-color: rgb(114, 91, 148);
+}
+.btn_div{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+

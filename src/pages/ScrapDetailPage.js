@@ -38,6 +38,7 @@ const[compute,setCompute]=useState(num*(thisProduct.sellRate-thisProduct.buyRate
         
       <h1>{thisProduct.title}</h1>
       <div className='details'>
+    
         <div className='counter'>
         <p>{num} Kg</p>
             <div className='btn_div'>
@@ -47,9 +48,10 @@ const[compute,setCompute]=useState(num*(thisProduct.sellRate-thisProduct.buyRate
         </div>
         <div className='scrap'>
             <h3>Amount of Scrap item currently available in the store: {num} kg </h3>
-            <h3>Buying rate : ${thisProduct.buyRate} per kg</h3>
-            <h3>Selling rate : ${thisProduct.sellRate} per kg</h3>
-            <h3>Estimated Profit with current amount: ${compute}</h3>
+            <h3>Buying rate : Rs {thisProduct.buyRate} /kg</h3>
+            <h3>Selling rate : Rs {thisProduct.sellRate} /kg</h3>
+            <h3>Cost of scrap sold: Rs </h3>
+            <h3>Estimated Profit with current amount: Rs {compute}</h3>
            </div>
       </div>
 

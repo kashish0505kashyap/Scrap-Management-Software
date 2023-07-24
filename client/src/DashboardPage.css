@@ -1,0 +1,24 @@
+.aboutPage{
+    display:flex;
+    margin:1rem;
+    padding:0.5rem;
+}
+img{
+    width: 30rem;
+    height:27rem;
+}
+.about{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.about h1{
+    color:rgb(5, 5, 79);
+    font-size: 80px;
+    font-weight: 400;
+}
+.about p{
+    text-align: justify;
+    color:rgb(57, 11, 2);
+    font-size: 15px;
+    
+}

@@ -15,111 +15,147 @@ const cardData=[
     {
         id:1,
         img:al,
-        title:'Aluminium Scrap',
+        title:'NewsPaper, Copies/Books, Cardboard',
         buyRate:15,
         sellRate:20,
         amount:15,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+       
     },
     {
         id:2,
         img:car,
-        title:'Car Scrap',
+        title:'Plastic/ Iron/ Steel/ Aluminium, Brass, Copper',
         buyRate:15,
         sellRate:20,
         amount:13,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+    
     },
     {
         id:3,
         img:cu,
-        title:'Copper Scrap',
+        title:'Iron Cooler, Plastic Cooler',
         buyRate:15,
         sellRate:20,
         amount:20,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+       
     },
     {
         id:4,
         img:carbide,
-        title:'Carbide Scrap',
+        title:'Window AC Aluminium(1.5 Ton)',
         buyRate:15,
         sellRate:20,
         amount:10,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
     },
     {
         id:5,
         img:comp,
-        title:'Compressor Scrap',
+        title:'Front Load Fully Automatic Washing Machine',
         buyRate:15,
         sellRate:20,
         amount:30,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+        
     },
     {
         id:6,
         img:computer,
-        title:'Computer Scrap',
+        title:'Top Load Fully Automatic Washing Machine',
         buyRate:15,
         sellRate:20,
         amount:10,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+       
     },
     {
         id:7,
         img:el,
-        title:'Electronic Scrap',
+        title:'Semi Automatic Washing Machine(Double Drum)',
         buyRate:15,
         sellRate:20,
         amount:20,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+       
     },
     {
         id:8,
         img:electric,
-        title:'Electric Scrap',
+        title:'Geyser, Single Door Fridge, Double Door Fridge',
         buyRate:15,
         sellRate:20,
         amount:25,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+        
     },
     {
         id:9,
         img:heavy,
-        title:'Heavy metal Scrap',
+        title:'AC(2 Ton), AC Copper(1.5 Ton), AC(1 Ton)',
         buyRate:15,
         sellRate:20,
         amount:20,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+        
     },
     {
         id:10,
         img:zn,
-        title:'Zinc Scrap',
+        title:'Heavy E-waste (content: metal>plastic)',
         buyRate:15,
         sellRate:20,
         amount:30,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+       
     },
     {
         id:11,
         img:motor,
-        title:'Motor Scrap',
+        title:'Light-waste (content: plastic>metal)',
         buyRate:15,
         sellRate:20,
         amount:35,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+      
     },
     {
         id:12,
         img:ms,
-        title:'Ms Scrap',
+        title:'Printers, scanner/fax machine, crt tv, ceiling fan',
         buyRate:15,
         sellRate:20,
         amount:20,
-        description:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+       
     },
+    {
+        id:13,
+        img:ms,
+        title:'motors (copper wiring), microwave, ups',
+        buyRate:15,
+        sellRate:20,
+        amount:20,
+      
+    },
+    {
+        id:14,
+        img:ms,
+        title:'inverters.stabilizer (copper coil)',
+        buyRate:15,
+        sellRate:20,
+        amount:20,
+       
+    },
+    {
+        id:15,
+        img:ms,
+        title:'battery (used with inverters) ,tablet, laptop',
+        buyRate:15,
+        sellRate:20,
+        amount:20,
+       
+    },
+    {
+        id:16,
+        img:ms,
+        title:'crt monitor, lcd monitor, computer cpu',
+        buyRate:15,
+        sellRate:20,
+        amount:20,
+        
+    },
+ 
 ];
 
 export default cardData;
