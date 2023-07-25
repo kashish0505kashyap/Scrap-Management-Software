@@ -22,7 +22,7 @@ const ProductPage = () => {
       <div className='btn'>
         <button>
           <div key={product.id}>
-        <Link to={`/products/${product.id}`}>View More</Link>
+        <Link to={`/products/${product.id}`}>Go To Product </Link>
         </div>
         </button>
       </div>

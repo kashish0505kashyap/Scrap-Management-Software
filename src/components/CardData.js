@@ -1,20 +1,25 @@
-import al from "../utils/assets/images/al.jpg";
-import car from "../utils/assets/images/car.jpg";
-import cu from "../utils/assets/images/cu.jpg";
-import carbide from "../utils/assets/images/carbide.jpg";
-import comp from "../utils/assets/images/comp.jpg";
-import computer from "../utils/assets/images/computer.jpg";
-import el from "../utils/assets/images/el.jpg";
-import electric from "../utils/assets/images/electric.jpg";
-import heavy from "../utils/assets/images/heavy.jpg";
-import zn from "../utils/assets/images/zn.jpg";
-import motor from "../utils/assets/images/motor.png";
-import ms from "../utils/assets/images/ms.jpg";
+import p1 from "../utils/assets/images/1.jpg";
+import p2 from "../utils/assets/images/2.jpg";
+import p3 from "../utils/assets/images/3.jpg";
+import p4 from "../utils/assets/images/4.jpg";
+import p5 from "../utils/assets/images/6.jpg";
+import p6 from "../utils/assets/images/6.jpg";
+import p7 from "../utils/assets/images/7.jpg";
+import p8 from "../utils/assets/images/8.jpg";
+import p9 from "../utils/assets/images/9.jpg";
+import p10 from "../utils/assets/images/10.jpg";
+import p11 from "../utils/assets/images/11.jpg";
+import p12 from "../utils/assets/images/12.jpeg";
+import p13 from "../utils/assets/images/13.png";
+import p14 from "../utils/assets/images/14.jpeg";
+import p15 from "../utils/assets/images/15.jpg";
+import p16 from "../utils/assets/images/16.jpg";
+
 
 const cardData=[
     {
         id:1,
-        img:al,
+        img:p1,
         title:'NewsPaper, Copies/Books, Cardboard',
         buyRate:15,
         sellRate:20,
@@ -23,7 +28,7 @@ const cardData=[
     },
     {
         id:2,
-        img:car,
+        img:p2,
         title:'Plastic/ Iron/ Steel/ Aluminium, Brass, Copper',
         buyRate:15,
         sellRate:20,
@@ -32,7 +37,7 @@ const cardData=[
     },
     {
         id:3,
-        img:cu,
+        img:p3,
         title:'Iron Cooler, Plastic Cooler',
         buyRate:15,
         sellRate:20,
@@ -41,7 +46,7 @@ const cardData=[
     },
     {
         id:4,
-        img:carbide,
+        img:p4,
         title:'Window AC Aluminium(1.5 Ton)',
         buyRate:15,
         sellRate:20,
@@ -49,7 +54,7 @@ const cardData=[
     },
     {
         id:5,
-        img:comp,
+        img:p5,
         title:'Front Load Fully Automatic Washing Machine',
         buyRate:15,
         sellRate:20,
@@ -58,7 +63,7 @@ const cardData=[
     },
     {
         id:6,
-        img:computer,
+        img:p6,
         title:'Top Load Fully Automatic Washing Machine',
         buyRate:15,
         sellRate:20,
@@ -67,7 +72,7 @@ const cardData=[
     },
     {
         id:7,
-        img:el,
+        img:p7,
         title:'Semi Automatic Washing Machine(Double Drum)',
         buyRate:15,
         sellRate:20,
@@ -76,7 +81,7 @@ const cardData=[
     },
     {
         id:8,
-        img:electric,
+        img:p8,
         title:'Geyser, Single Door Fridge, Double Door Fridge',
         buyRate:15,
         sellRate:20,
@@ -85,7 +90,7 @@ const cardData=[
     },
     {
         id:9,
-        img:heavy,
+        img:p9,
         title:'AC(2 Ton), AC Copper(1.5 Ton), AC(1 Ton)',
         buyRate:15,
         sellRate:20,
@@ -94,7 +99,7 @@ const cardData=[
     },
     {
         id:10,
-        img:zn,
+        img:p10,
         title:'Heavy E-waste (content: metal>plastic)',
         buyRate:15,
         sellRate:20,
@@ -103,7 +108,7 @@ const cardData=[
     },
     {
         id:11,
-        img:motor,
+        img:p11,
         title:'Light-waste (content: plastic>metal)',
         buyRate:15,
         sellRate:20,
@@ -112,7 +117,7 @@ const cardData=[
     },
     {
         id:12,
-        img:ms,
+        img:p12,
         title:'Printers, scanner/fax machine, crt tv, ceiling fan',
         buyRate:15,
         sellRate:20,
@@ -121,7 +126,7 @@ const cardData=[
     },
     {
         id:13,
-        img:ms,
+        img:p13,
         title:'motors (copper wiring), microwave, ups',
         buyRate:15,
         sellRate:20,
@@ -130,7 +135,7 @@ const cardData=[
     },
     {
         id:14,
-        img:ms,
+        img:p14,
         title:'inverters.stabilizer (copper coil)',
         buyRate:15,
         sellRate:20,
@@ -139,7 +144,7 @@ const cardData=[
     },
     {
         id:15,
-        img:ms,
+        img:p15,
         title:'battery (used with inverters) ,tablet, laptop',
         buyRate:15,
         sellRate:20,
@@ -148,7 +153,7 @@ const cardData=[
     },
     {
         id:16,
-        img:ms,
+        img:p16,
         title:'crt monitor, lcd monitor, computer cpu',
         buyRate:15,
         sellRate:20,
